@@ -62,8 +62,8 @@ importers:
         specifier: 0.7.2
         version: 0.7.2(hono@4.7.5)
       '@sentry/node':
-        specifier: 9.6.1
-        version: 9.6.1
+        specifier: 9.7.0
+        version: 9.7.0
       '@tonyrl/rand-user-agent':
         specifier: 2.0.83
         version: 2.0.83
@@ -212,8 +212,8 @@ importers:
         specifier: 9.1.1
         version: 9.1.1
       rate-limiter-flexible:
-        specifier: 6.1.0
-        version: 6.1.0
+        specifier: 6.2.0
+        version: 6.2.0
       re2js:
         specifier: 1.1.0
         version: 1.1.0
@@ -435,8 +435,8 @@ importers:
         specifier: 11.0.0
         version: 11.0.0
       supertest:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.1.0
+        version: 7.1.0
       typescript:
         specifier: 5.8.2
         version: 5.8.2
@@ -2049,16 +2049,16 @@ packages:
   '@selderee/plugin-htmlparser2@0.11.0':
     resolution: {integrity: sha512-P33hHGdldxGabLFjPPpaTxVolMrzrcegejx+0GxjrIb9Zv48D8yAIA/QTDR2dFl7Uz7urX8aX6+5bCZslr+gWQ==}
 
-  '@sentry/core@9.6.1':
-    resolution: {integrity: sha512-BHaRxyFF3sNlKP6lNcB5cxFogvfMOtWw0Est6mK/Mbewnim0qEbmqKyuMj67ebfgo+pmUJJc2wgugdxkxvqGRQ==}
+  '@sentry/core@9.7.0':
+    resolution: {integrity: sha512-EprjtU7F6eltB4Nx8fzWFXsfAC/6yNGuKo2bHKeIAmNufjD0X4ifz+iB3d0pKuwsn9jQbLrQTIGwKdTO3dstFw==}
     engines: {node: '>=18'}
 
-  '@sentry/node@9.6.1':
-    resolution: {integrity: sha512-cS05ROvBvAFbooqIdyw+yvPyVJqJ89bcirf/QwtFJm+4REtbI7+UAn3D9l17Zd41G1FtpQynpebkCyMc22jO/Q==}
+  '@sentry/node@9.7.0':
+    resolution: {integrity: sha512-akV3tUaByurPT2OY2W6AmHKxNrFZjf5WlN6eL/HhU+AV1Nox/cbZWIt6nr2PuaVd+e4xVyaXUkNtjo0UZUvQEQ==}
     engines: {node: '>=18'}
 
-  '@sentry/opentelemetry@9.6.1':
-    resolution: {integrity: sha512-KjWOcYEoRiwlHxfWTnEQKErpa4c1BubsJFCezqV64BOTV2vX09AjdJo33PrPjstGopDloLdkqJS60KBhVl49JQ==}
+  '@sentry/opentelemetry@9.7.0':
+    resolution: {integrity: sha512-WsHiGLhm6RIdOwzKAujn7+iR/PCUV//X8AC1ZjuLnqv68z698piyOOxpHLBdaha57E1qxWe1uZ/tjM9/lE2gLA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@opentelemetry/api': ^1.9.0
@@ -5067,8 +5067,8 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  rate-limiter-flexible@6.1.0:
-    resolution: {integrity: sha512-CqdTzIj9srODfTP1QKZyHn9BSq4SbOel9+Mun1Qt+SmYSgXDEYPa18yKKHTt5Q+4eqCK+psSLpCuYsbAu5MwGA==}
+  rate-limiter-flexible@6.2.0:
+    resolution: {integrity: sha512-70UBvAGPKWbCX55UdSzdcLo7vBd6hmlLKGeizH4i7s2AK16uANJOBCtNzSKbg6S/P6YT97ZK4kRoLQw7cYryAg==}
 
   re2js@1.1.0:
     resolution: {integrity: sha512-ovDCIb2ZQR7Do3NzH2XEuXOzqd1q8srvkeaOVMf+EZNt1Z4JoUVvNKCR9qf8EbqoPhvLknkoyiiBzoQtmuzIbQ==}
@@ -5476,8 +5476,8 @@ packages:
     resolution: {integrity: sha512-xuW7dzkUpcJq7QnhOsnNUgtYp3xRwpt2F7abdRYIpCsAt0hhUqia0EdxyXZQQpNmGtsCzYHryaKSV3q3GJnq7w==}
     engines: {node: '>=14.18.0'}
 
-  supertest@7.0.0:
-    resolution: {integrity: sha512-qlsr7fIC0lSddmA3tzojvzubYxvlGtzumcdHgPwbFWMISQwL22MhM2Y3LNt+6w9Yyx7559VW5ab70dgphm8qQA==}
+  supertest@7.1.0:
+    resolution: {integrity: sha512-5QeSO8hSrKghtcWEoPiO036fxH0Ii2wVQfFZSP0oqQhmjk8bOLhDFXr4JrvaFmPuEWUoq4znY3uSi8UzLKxGqw==}
     engines: {node: '>=14.18.0'}
 
   supports-color@2.0.0:
@@ -7843,9 +7843,9 @@ snapshots:
       domhandler: 5.0.3
       selderee: 0.11.0
 
-  '@sentry/core@9.6.1': {}
+  '@sentry/core@9.7.0': {}
 
-  '@sentry/node@9.6.1':
+  '@sentry/node@9.7.0':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.30.1(@opentelemetry/api@1.9.0)
@@ -7878,13 +7878,13 @@ snapshots:
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.30.0
       '@prisma/instrumentation': 6.5.0(@opentelemetry/api@1.9.0)
-      '@sentry/core': 9.6.1
-      '@sentry/opentelemetry': 9.6.1(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.2(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.30.0)
+      '@sentry/core': 9.7.0
+      '@sentry/opentelemetry': 9.7.0(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.2(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.30.0)
       import-in-the-middle: 1.13.1
     transitivePeerDependencies:
       - supports-color
 
-  '@sentry/opentelemetry@9.6.1(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.2(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.30.0)':
+  '@sentry/opentelemetry@9.7.0(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/core@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/instrumentation@0.57.2(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@1.30.1(@opentelemetry/api@1.9.0))(@opentelemetry/semantic-conventions@1.30.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/context-async-hooks': 1.30.1(@opentelemetry/api@1.9.0)
@@ -7892,7 +7892,7 @@ snapshots:
       '@opentelemetry/instrumentation': 0.57.2(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-trace-base': 1.30.1(@opentelemetry/api@1.9.0)
       '@opentelemetry/semantic-conventions': 1.30.0
-      '@sentry/core': 9.6.1
+      '@sentry/core': 9.7.0
 
   '@sindresorhus/is@5.6.0': {}
 
@@ -11310,7 +11310,7 @@ snapshots:
 
   quick-lru@5.1.1: {}
 
-  rate-limiter-flexible@6.1.0: {}
+  rate-limiter-flexible@6.2.0: {}
 
   re2js@1.1.0: {}
 
@@ -11751,7 +11751,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  supertest@7.0.0:
+  supertest@7.1.0:
     dependencies:
       methods: 1.1.2
       superagent: 9.0.2
